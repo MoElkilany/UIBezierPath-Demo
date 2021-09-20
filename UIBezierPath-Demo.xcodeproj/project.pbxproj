@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0AEE359226F9239C003F3D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE359126F9239C003F3D92 /* AppDelegate.swift */; };
-		0AEE359426F9239C003F3D92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE359326F9239C003F3D92 /* SceneDelegate.swift */; };
 		0AEE359626F9239C003F3D92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE359526F9239C003F3D92 /* ViewController.swift */; };
-		0AEE359926F9239C003F3D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEE359726F9239C003F3D92 /* Main.storyboard */; };
 		0AEE359B26F9239E003F3D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AEE359A26F9239E003F3D92 /* Assets.xcassets */; };
 		0AEE359E26F9239E003F3D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEE359C26F9239E003F3D92 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		0AEE358E26F9239C003F3D92 /* UIBezierPath-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIBezierPath-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEE359126F9239C003F3D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0AEE359326F9239C003F3D92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0AEE359526F9239C003F3D92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0AEE359826F9239C003F3D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AEE359A26F9239E003F3D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AEE359D26F9239E003F3D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AEE359F26F9239E003F3D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				0AEE359126F9239C003F3D92 /* AppDelegate.swift */,
-				0AEE359326F9239C003F3D92 /* SceneDelegate.swift */,
 				0AEE359526F9239C003F3D92 /* ViewController.swift */,
-				0AEE359726F9239C003F3D92 /* Main.storyboard */,
 				0AEE359A26F9239E003F3D92 /* Assets.xcassets */,
 				0AEE359C26F9239E003F3D92 /* LaunchScreen.storyboard */,
 				0AEE359F26F9239E003F3D92 /* Info.plist */,
@@ -126,7 +120,6 @@
 			files = (
 				0AEE359E26F9239E003F3D92 /* LaunchScreen.storyboard in Resources */,
 				0AEE359B26F9239E003F3D92 /* Assets.xcassets in Resources */,
-				0AEE359926F9239C003F3D92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,21 +132,12 @@
 			files = (
 				0AEE359626F9239C003F3D92 /* ViewController.swift in Sources */,
 				0AEE359226F9239C003F3D92 /* AppDelegate.swift in Sources */,
-				0AEE359426F9239C003F3D92 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0AEE359726F9239C003F3D92 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0AEE359826F9239C003F3D92 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0AEE359C26F9239E003F3D92 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.UIBezierPath-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.UIBezierPath-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
